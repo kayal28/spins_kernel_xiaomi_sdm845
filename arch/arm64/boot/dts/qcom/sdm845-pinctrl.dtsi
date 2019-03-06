@@ -3368,12 +3368,12 @@
 		cam_res_mgr_active: cam_res_mgr_active {
 			/* AVDD_LDO*/
 			mux {
-				pins = "";
+				pins = "gpio8";
 				function = "gpio";
 			};
 
 			config {
-				pins = "";
+				pins = "gpio8";
 				bias-disable; /* No PULL */
 				drive-strength = <2>; /* 2 MA */
 			};
@@ -3382,12 +3382,12 @@
 		cam_res_mgr_suspend: cam_res_mgr_suspend {
 			/* AVDD_LDO */
 			mux {
-				pins = "";
+				pins = "gpio8";
 				function = "gpio";
 			};
 
 			config {
-				pins = "";
+				pins = "gpio8";
 				bias-disable; /* No PULL */
 				drive-strength = <2>; /* 2 MA */
 				output-low;
